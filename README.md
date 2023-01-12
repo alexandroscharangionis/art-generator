@@ -1,1 +1,1 @@
-# art-generator
+# Generator of 'Damien Hirst' style dot paintings.
