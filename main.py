@@ -13,7 +13,6 @@ turtle.penup()
 turtle.setheading(225)
 turtle.forward(300)
 turtle.setheading(0)
-turtle.pendown()
 
 # Generated colors via colorgram module from a sample Hirst painting
 hirst_colors = [(212, 154, 97), (52, 108, 132), (178, 78, 33), (198, 143, 34), (123, 80, 97), (116, 155, 171), (124, 175, 158), (228, 197, 129), (194, 85, 105), (54, 38, 20), (12, 51, 65), (189, 123, 142), (54,
@@ -28,7 +27,6 @@ def generate_painting(grid_size):
         for column in range(grid_size):
             dot_color = r.choice(hirst_colors)
             turtle.dot(20, dot_color)
-            turtle.penup()
             turtle.forward(50)
         turtle_pos[1] += 50
 
