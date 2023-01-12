@@ -5,6 +5,7 @@ import random as r
 
 t.colormode(255)
 turtle = t.Turtle()
+turtle.speed("fastest")
 turtle.hideturtle()  # hide cursor
 
 # Move cursor to bottom left without leaving a trace:
